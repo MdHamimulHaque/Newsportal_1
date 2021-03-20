@@ -1,0 +1,428 @@
+@media screen and (max-width:600px) { 
+
+.icon_top{
+	display: none;
+}
+.top_img_right{
+	height: 400px;
+    width: 100%;
+}
+
+.second_navbar{
+	display: none
+}
+
+.second_nb_card{
+	padding-left:5px;
+}
+
+.beside_img2nv{
+	padding-left: 5px;
+}
+
+.tecnology{
+	height:1150px;
+	width: 100%;
+	
+}
+
+.tecnology_img{
+	height: auto;
+	width: 100%;
+	float: none;
+}
+
+.tecnology_img img{
+     height: 100%;
+     width: 100%;
+}
+
+.tecnology_cptn{
+	height: auto;
+	width: 100%;
+	float: none;
+}
+
+ .tecnology_box{
+	width:100%;
+	left:0%;
+	margin-top:10px;
+	padding:10px;
+	
+}
+.tecnology_cptn .tecnology_box .cbox1{
+	width: 100%;
+    margin-left:0%;
+    background: #fff;
+    float: none;
+
+}
+.tecnology_cptn .tecnology_box .cbox1{
+  padding:10px;
+  margin-top: 10px;
+  -webkit-box-shadow: 2px 2px 7px 0px black;
+  box-shadow: 2px 2px 7px 0px black;
+}
+
+/* health start */
+
+.health{
+	height:1080px;
+	width: 100%;
+	
+}
+
+.health_cptn{
+	width: 100%;
+	float: none;
+	margin-bottom: 10px
+}
+
+.health_img{
+	height: auto;
+	width: 100%;
+	float: none;
+}
+
+ .health_box{
+	width: 100%;
+	left:0%;
+	margin-top:250px;
+	
+}
+.health_cptn .health_box .cbox1{
+	width:100%;
+    margin-left:0%;
+    background: #fff;
+    -webkit-box-shadow: 2px 2px 7px 0px black;
+    box-shadow: 2px 2px 7px 0px black;
+    float: none;
+    margin-top: 10px
+}
+.health_cptn .health_box .cbox1{
+padding:5px;
+}
+
+.only_img{
+	display: none;
+}
+
+.fitness{
+	height: auto;
+	width: 100%;
+	margin-bottom: 10px;
+}
+.fitness .beside_img_fitness{
+	height: auto;
+	width: 100%;
+	float: none
+}
+.fitness .beside_img_fitness img{
+	height:100%;
+	width:100%;
+	
+}
+.fitness .beside_img_fitness_caption{
+	height: auto;
+	width: 100%;
+	float: none;
+
+}
+.fitness .beside_img_fitness_caption .heading2{
+	padding-left:15px;
+
+}
+
+.icon1,.icon2,.icon3,.icon4,.icon5,.icon6{
+    height:35px;
+    width:35px;
+    border-radius:50%;
+    text-align: center;
+    line-height:35px;
+    font-size:12px;
+  
+}
+
+
+
+} 
+
+
+
+
+
+
+@media screen and (min-width:600px) { 
+
+.second_navbar{
+   display: none;
+}
+
+.section_2nd_navbar{
+	height:auto;
+}
+
+
+.second_nb_card_beside{
+	width:100%;
+	height:70px;
+	
+}
+.beside_img2nv{
+	width:20%;
+	float: left;
+
+}
+.beside_img2nv img{
+	width: 100%;
+	height: 100%
+}
+.beside_img2nv_caption{
+    width: 80%;
+	float: left;
+	height: 70px;
+
+}
+
+.health{
+	height:980px;
+	width: 100%;
+	
+}
+
+ .sports{
+	height:70px;	
+}
+.beside_img_sports{
+	width:20%;
+	
+}
+.beside_img_sports img{
+	width: 100%;
+	height: auto
+}
+.beside_sports_caption p{
+    width: 80%;
+}
+
+.games{
+	margin-top: 15px;
+}
+
+footer{
+	margin-top: 15px
+}
+
+} 
+
+
+@media screen and (min-width:768px){
+
+   
+.second_navbar{
+	display: block
+}
+
+.logo2nv{
+	margin-right:10px; 
+}
+.second_navbar .navbar ul li{
+      margin-left:8px;
+}
+
+
+.beside_img2nv{
+	width:30%;
+	height:50px;
+}
+
+.beside_img2nv_caption{
+    width: 70%;
+}
+
+.icon1,.icon2,.icon3,.icon4,.icon5,.icon6{
+    height:30px;
+    width:30px;
+    line-height:30px;
+    font-size:15px;
+}
+
+.tecnology{
+	height: 750px;
+	width: 100%;
+
+}
+.tecnology_img{
+	width: 100%;
+	float: none;
+}
+
+
+.tecnology_cptn{
+	width: 100%;
+	float: none;
+	position: relative
+}
+
+ .tecnology_box{
+	width: 100%;
+	position: absolute;
+	left:0%;
+	margin-top:30px;
+	
+}
+
+
+
+
+.health{
+	height: 780px;
+	width: 100%;
+	
+}
+.health_img{
+	height: 350px;
+	width: 100%;
+	float: none;
+}
+
+.health_img img{
+     height: 100%;
+     width: 100%;
+}
+
+.health_cptn{
+	width: 100%;
+	height: 400px;
+	float: none;
+	position: relative
+}
+
+ .health_box{
+	width: 100%;
+	position: absolute;
+	left:0%;
+	margin-top:30px;
+	
+}
+
+.sports{
+	width:100%;
+	height:80px;
+	padding-bottom:2px;
+	
+}
+.beside_img_sports{
+	width:30%;
+	height:70px;
+	margin:0 auto;
+	float: left;
+}
+.beside_img_sports img{
+	width: 100%;
+	height: 100%;
+
+}
+.beside_sports_caption{
+    width: 70%;
+	float: left;
+	height:70px;
+	padding-left:5px;
+	font-size: 5px;
+
+
+}
+
+
+
+}
+
+
+@media screen and (min-width:992px){
+
+.second_navbar .navbar ul li{
+      margin-left:30px;
+}
+
+.logo2nv{
+	margin-right:120px; 
+}
+
+
+.tecnology{
+	height: 510px;
+	width: 100%;
+}
+.tecnology_img{
+	height: 350px;
+	width: 50%;
+	float: left;
+}
+
+.tecnology_img img{
+     height: 100%;
+     width: 100%;
+}
+
+.tecnology_cptn{
+	width: 50%;
+	float: left;
+	position: relative
+}
+
+ .tecnology_box{
+	width: 100%;
+	position: absolute;
+	left:-35%;
+	margin-top:30px;
+	
+}
+
+.health{
+	height: 510px;
+	width: 100%;
+	
+}
+.health_img{
+	height: 350px;
+	width: 50%;
+	float: left;
+}
+
+.health_img img{
+     height: 100%;
+     width: 100%;
+}
+
+.health_cptn{
+	width: 50%;
+	float: left;
+	position: relative
+}
+
+ .health_box{
+	width: 100%;
+	position: absolute;
+	left:35%;
+	margin-top:30px;
+	
+}
+
+.icon1,.icon2,.icon3,.icon4,.icon5,.icon6{
+    height:40px;
+    width:40px;
+    border-radius:50%;
+    text-align: center;
+    line-height:40px;
+  
+}
+
+
+
+}
+
+
+@media screen and (min-width:1200px){
+
+  
+}

@@ -1,0 +1,463 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Raleway', sans-serif;
+}
+/* p{
+	font-family: 'Open Sans Condensed', sans-serif;
+} */
+
+.font_common{
+	font-size:12px;
+}
+
+.card{
+	font-size:12px;
+}
+.card span{
+	font-size:9px;
+}
+
+.blockquote{
+	font-size:11px;
+}
+
+.heading2{
+	font-size:11px;
+	font-weight: bold;
+}
+/* .Sub_heading2{
+	font-size:9px; 
+} */
+.p_date{
+	font-size:9px;
+}
+
+/* .caption{
+   position: absolute;
+   bottom:10px;
+   left:10px;
+   color: #fff;
+   font-size:10px
+} */
+
+.top{
+	height: auto;
+	font-size:8px;
+	line-height: 10px;
+	font-weight: bold;
+}
+
+.Newsportal{
+	
+	font-size: 10px;
+}
+
+.icon_top a{
+	color: #ddd;
+	font-size: 10px;
+	margin-right: 5px;
+}
+
+.top ul li a:hover{
+	background: grey;
+}
+
+.icon_top a:hover{
+     color:#17A2B8
+}
+
+/* end top menu */
+
+.top_img{
+	height:auto;
+	
+
+}
+.top_img_left{
+	height:400px;
+	width: 100%;
+	position: relative;
+	
+}
+.top_img_left img{
+	height:100%;
+	width:100%
+}
+
+.top_img_left .top_img_caption{
+   position: absolute;
+   bottom:10px;
+   left:10px;
+   color: #fff;
+   font-size:10px
+
+}
+
+.top_img_right{
+	height: 400px;
+    width: 100%;
+}
+.top_img_right_1,.top_img_right_2,.top_img_right_3,.top_img_right_4{
+	height: 200px;
+    width: 50%;
+    float: left; 
+    position: relative
+}
+
+.top_img_right_1 .top_img_caption{
+	position: absolute;
+   bottom:8px;
+   left:8px;
+   color: #fff;
+   font-size:8px
+}
+.top_img_right_2 .top_img_caption{
+	position: absolute;
+   bottom:8px;
+   left:8px;
+   color: #fff;
+   font-size:8px
+}
+.top_img_right_3 .top_img_caption{
+	position: absolute;
+   bottom:8px;
+   left:8px;
+   color: #fff;
+   font-size:8px
+}
+.top_img_right_4 .top_img_caption{
+	position: absolute;
+   bottom:8px;
+   left:8px;
+   color: #fff;
+   font-size:8px
+}
+
+.top_img_right_1 img,.top_img_right_2 img,.top_img_right_3 img,.top_img_right_4 img{
+	height: 100%;
+	width:100%;
+
+}
+
+/* end top img */
+.second_navbar{
+	height: 30px;
+	font-size:12px;	
+	font-weight: bold;
+   border-bottom: 2px solid #CC081E;
+
+
+}
+
+.logo2nv{
+	line-height: 30px;
+	margin-right:20px; 
+}
+.logo2nv a{
+   text-decoration:none;
+   background:#CC081E;
+   padding: 5px 5px 5px 5px;
+}
+
+.second_navbar .navbar ul li{
+      float:left;
+      margin-left:35px;
+      list-style: none;
+
+}
+.second_navbar .navbar ul li a{     
+    text-decoration: none   
+}
+
+/* second navbar side img */
+.section_2nd_navbar{
+	height:auto;
+	/* background: green */
+}
+
+
+.second_nb_card_beside{
+	width:100%;
+	height:100px;
+	padding-bottom:2px;
+	
+}
+.beside_img2nv{
+	width:30%;
+	/* height: 50px; */
+	margin:0 auto;
+	float: left;
+}
+.beside_img2nv img{
+	width: 100%;
+	height: 100%
+}
+.beside_img2nv_caption{
+    width: 70%;
+	float: left;
+	height: 70px;
+
+}
+
+/* icon section */
+
+.icon{
+	width: 100%;
+	margin-top: 20px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: distribute;
+	justify-content: space-around
+}
+.icon1,.icon2,.icon3,.icon4,.icon5,{
+    height:50px;
+    width:50px;
+    border-radius:50%;
+    text-align: center;
+    line-height:50px;
+}
+.icon1{
+	background: #1877F2;
+}
+
+.icon2{
+	background: #17A2B8;
+}
+.icon3{
+	background:#1877F2;
+}
+.icon4{
+	background:#F55B3F 
+}
+
+.icon5{
+	background:#F7F400 
+}
+
+.icon1:hover{
+	background:#111;
+}
+.icon2:hover{
+	background:#111;
+}
+.icon3:hover{
+	background:#111;
+}
+.icon4:hover{
+	background:#111;
+}
+.icon5:hover{
+	background:#111;
+}
+
+
+
+.follow_us h4{
+	border-bottom: 2px solid #17A2B8;
+	padding-bottom:4px;
+}
+.catagories h4{
+	border-bottom: 2px solid #17A2B8;
+	padding-bottom:4px;
+}
+.catagories ul li {
+	list-style: none;
+}
+.catagories ul li a{
+	text-decoration: none;
+}
+
+.top_news h4{
+	border-bottom: 2px solid #17A2B8;
+	padding-bottom:4px;
+}
+.latest_pst h4{
+	border-bottom: 2px solid #17A2B8;
+	padding-bottom:4px;
+}
+.ftns h4{
+	border-bottom: 2px solid #17A2B8;
+	padding-bottom:4px;
+}
+.sprs {
+	border-bottom: 2px solid #17A2B8;
+	padding-bottom:4px;
+}
+.games {
+	border-bottom: 2px solid #17A2B8;
+	padding-bottom:4px;
+}
+
+
+.top_N_img img{
+	height:150px;
+	width: 100%;
+}
+
+/* start tecnology section */
+.tecnology{
+	height: 480px;
+	width: 100%;
+}
+.tecnology_img{
+	height: 350px;
+	width: 50%;
+	float: left;
+}
+
+.tecnology_img img{
+     height: 100%;
+     width: 100%;
+}
+
+.tecnology_cptn{
+	width: 50%;
+	float: left;
+	position: relative
+}
+
+ .tecnology_box{
+	width: 100%;
+	position: absolute;
+	left:-35%;
+	margin-top:30px;
+	
+}
+.tecnology_cptn .tecnology_box .cbox1{
+	width: 23.5%;
+    margin-left:1.5%;
+    background: #fff;
+    -webkit-box-shadow: 2px 2px 7px 0px black;
+    box-shadow: 2px 2px 7px 0px black;
+    float: left;
+}
+.tecnology_cptn .tecnology_box .cbox1{
+padding:5px;
+}
+
+/* end computingsection */
+
+/* start advertising section */
+
+.advertisement_img{
+	position: relative
+}
+.advertisement_cptn{
+	position: absolute;
+	text-align:center;
+	top: 40%;
+	width: 100%;
+	color: #fff;
+	background:#111;
+	opacity:60%;
+}
+
+/* end advertising section */
+
+/* start computingsection */
+.health{
+	height: 480px;
+	width: 100%;
+	
+}
+.health_img{
+	height: 350px;
+	width: 50%;
+	float: left;
+}
+
+.health_img img{
+     height: 100%;
+     width: 100%;
+}
+
+.health_cptn{
+	width: 50%;
+	float: left;
+	position: relative
+}
+
+ .health_box{
+	width: 100%;
+	position: absolute;
+	left:35%;
+	margin-top:30px;
+	
+}
+.health_cptn .health_box .cbox1{
+	width:23.5%;
+    margin-left:1.5%;
+    background: #fff;
+    -webkit-box-shadow: 2px 2px 7px 0px black;
+    box-shadow: 2px 2px 7px 0px black;
+    float: left;
+}
+.health_cptn .health_box .cbox1{
+padding:5px;
+}
+
+/* end computingsection */
+
+/* fitness section */
+
+.fitness{
+	height: 100px;
+	width: 100%;
+	margin-bottom: 10px;
+}
+.fitness .beside_img_fitness{
+	height: 100px;
+	width: 20%;
+	float: left
+}
+.fitness .beside_img_fitness img{
+	height:100%;
+	width:100%;
+	
+}
+.fitness .beside_img_fitness_caption{
+	height: 100px;
+	width: 80%;
+	float: left;
+	padding:8px;
+
+}
+
+
+
+
+
+ .sports{
+	width:100%;
+	height:80px;
+	padding-bottom:2px;
+	
+}
+.beside_img_sports{
+	width:20%;
+	height: 80px;
+	margin:0 auto;
+	float: left;
+}
+.beside_img_sports img{
+	width: 100%;
+	height: 100%
+}
+.beside_sports_caption{
+    width: 80%;
+	float: left;
+	height: 80px;
+}
+
+footer ul li{
+  list-style: none;
+}
+
